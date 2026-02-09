@@ -68,6 +68,7 @@ public class baseTest {
         takeScreenShot(destFile);
         driver.get().quit();
     }
+    //New Change
     public void takeScreenShot(File destFile){
         File file=((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
         try {
